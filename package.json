@@ -1,0 +1,15 @@
+{
+  "name": "LurpiMarketplace",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": "https://github.com/leandrovicente/LurpiMarketplace.git",
+  "author": "leandro <leandro.vicente98@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "editorconfig": "^0.15.3",
+    "eslintrc": "^1.0.6",
+    "express": "^4.17.1"
+  }
+}
