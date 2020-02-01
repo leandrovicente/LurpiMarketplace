@@ -10,6 +10,7 @@
   "dependencies": {
     "editorconfig": "^0.15.3",
     "eslintrc": "^1.0.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11"
   }
 }
