@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img  src="https://raw.githubusercontent.com/leandrovicente/LurpiMarketplace/master/src/app/img/logo.png" width="300px" />
+  <img  src="https://raw.githubusercontent.com/leandrovicente/LurpiMarketplace/master/src/app/img/logo.png" width="400px" />
 </h1>
 
 <h3 align="center">
