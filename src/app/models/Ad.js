@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const mongoosePaginate = require("mongoose-paginate");
+const mongoose = require('mongoose')
+const mongoosePaginate = require('mongoose-paginate')
 
 const Ad = new mongoose.Schema({
   title: {
@@ -12,17 +12,23 @@ const Ad = new mongoose.Schema({
   },
   author: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+    ref: 'User',
     required: true
   },
   price: {
     type: Number,
     required: true
   },
+  purchasedBy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Purchase'
+  },
   createdAt: {
     type: Date,
     default: Date.now
   }
-});
-Ad.plugin(mongoosePaginate);
-module.exports = mongoose.model("Ad", Ad);
+})
+
+Ad.plugin(mongoosePaginate)
+
+module.exports = mongoose.model('Ad', Ad)
