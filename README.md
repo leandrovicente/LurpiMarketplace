@@ -89,7 +89,7 @@ Exemplos:
 
 
 ### **3. Envio de E-mails**
-O envio de email e feito quando alguem se interessa pelo o anuncio.
+O envio de email e feito quando alguém se interessa pelo o anuncio.
 Para isso e necessario:
 POST EM http://localhost:3333/purchases/
 
