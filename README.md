@@ -7,7 +7,7 @@ Lurpi Marketplace</h3>
 
 
 
-# Sobre o Lurpi Marketplace
+# Sobre o LurpiMarketplace
 
 Uma aplicação criada para desenvolver os conhecimentos em node.js.
 Codigo totalmente aberto, então sinta-se a vontade a para modificar, utilizar, vender etc.
